@@ -1,0 +1,16 @@
+[theme]
+backgroundColor = "#f5f5dc"
+textColor ="#000000"
+secondaryBackgroundColor = "#cfd672"
+showSidebarBorder = true
+font = "Trebuchet MS"
+codeFontWeight = 900
+
+[theme.sidebar]
+backgroundColor = "#f5f5dc"
+textColor ="#000000"
+font = "Trebuchet MS"
+codeFontWeight = 900
+[server]
+
+port = 8501
