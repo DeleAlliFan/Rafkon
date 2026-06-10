@@ -2,19 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("Governance")
-st.graphviz_chart('''
-    digraph {
-        President -> Vice-President
-        Vice-President -> Speaker-of-the-House
-        Speaker-of-the-House -> Senator
-        Senator -> Representative
-        Reprsesentative -> Governor
-        Governor -> State-Attorney-General
-        State-Attorney-General -> State-Senate
-        State-Senate -> Mayor
-        Mayor -> District-Attorney
-    }
-''')
+
 
 order = pd.DataFrame(
     {
